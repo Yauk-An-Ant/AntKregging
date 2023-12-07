@@ -10,7 +10,8 @@ public class Main {
             }
             return sum;
         });
-
-        System.out.println(add.add(3, 5));
+        int a = Integer.valueOf(args[0]);
+        int b = Integer.valueOf(args[1]);
+        System.out.println(add.add(a, b));
     }
 }
